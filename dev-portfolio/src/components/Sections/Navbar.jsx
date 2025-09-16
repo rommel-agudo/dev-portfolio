@@ -33,7 +33,7 @@ const Navbar = () => {
           <span className={`text-lg ml-1 ${
             isDarkMode ? "text-white" : "text-gray-900"
           }`}
-          >Time to Program</span>
+          >Rommel Agudo</span>
         </motion.div>
 
         {/* Desktop Navigation */}
