@@ -1,12 +1,51 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Dev Portfolio
 
-Currently, two official plugins are available:
+A modern, responsive developer portfolio built with React, Vite, Tailwind CSS, and Framer Motion.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Responsive design for desktop and mobile
+- Dark mode support
+- Animated sections using Framer Motion
+- Skills, projects, and contact sections
+- Easy to customize
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Install dependencies:**
+	```sh
+	npm install
+	```
+2. **Run the development server:**
+	```sh
+	npm run dev
+	```
+3. **Build for production:**
+	```sh
+	npm run build
+	```
+4. **Preview the production build:**
+	```sh
+	npm run preview
+	```
+
+## Folder Structure
+```
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── context/
+│   ├── utils/
+│   └── main.jsx
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## Customization
+- Update your information, skills, and projects in the `src/utils/data.js` file.
+- Change theme and layout in the components and Tailwind config.
+
+## License
+MIT
