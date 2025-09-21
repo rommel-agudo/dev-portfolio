@@ -14,6 +14,7 @@ import {
   Mail,
   MapPin,
   Phone,
+  TestTube,
 } from "lucide-react";
 
 import { FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
@@ -32,11 +33,11 @@ export const SKILLS_CATEGORY = [
     icon: Code2,
     description: "Crafting beautiful, responsive user interfaces",
     skills: [
-      { name: "React", level: 95, color: "bg-blue-500" },
-      { name: "TypeScript", level: 90, color: "bg-blue-600" },
-      { name: "Next.js", level: 88, color: "bg-gray-800" },
-      { name: "Tailwind CSS", level: 92, color: "bg-cyan-500" },
-      { name: "Framer Motion", level: 85, color: "bg-pink-500" },
+      { name: "React", level: 55, color: "bg-blue-500" },
+      { name: "TypeScript", level: 60, color: "bg-yellow-400" },
+      { name: "C#", level: 65, color: "bg-gray-800" },
+      { name: "PHP", level: 58, color: "bg-cyan-500" },
+      { name: "Framer Motion", level: 80, color: "bg-pink-500" },
     ],
   },
   {
@@ -44,11 +45,10 @@ export const SKILLS_CATEGORY = [
     icon: Server,
     description: "Building robust server-side solutions",
     skills: [
-      { name: "Node.js", level: 90, color: "bg-green-500" },
-      { name: "Express.js", level: 88, color: "bg-gray-700" },
-      { name: "Python", level: 85, color: "bg-yellow-500" },
-      { name: "GraphQL", level: 80, color: "bg-pink-600" },
-      { name: "REST APIs", level: 92, color: "bg-orange-500" },
+      { name: "Node.js", level: 75, color: "bg-green-500" },
+      { name: "Express.js", level: 60, color: "bg-gray-700" },
+      { name: "Python", level: 80, color: "bg-yellow-600" },
+      { name: "REST APIs", level: 80, color: "bg-orange-500" },
     ],
   },
   {
@@ -56,11 +56,11 @@ export const SKILLS_CATEGORY = [
     icon: Database,
     description: "Managing and optimizing data storage",
     skills: [
-      { name: "MongoDB", level: 88, color: "bg-green-600" },
-      { name: "DynamoDB", level: 85, color: "bg-blue-700" },
+      { name: "MongoDB", level: 80, color: "bg-green-300" },
+      { name: "DynamoDB", level: 85, color: "bg-blue-400" },
       { name: "SQL", level: 80, color: "bg-red-500" },
       { name: "MySQL", level: 82, color: "bg-indigo-600" },
-      { name: "Firebase", level: 78, color: "bg-yellow-600" },
+      { name: "Firebase", level: 78, color: "bg-yellow-300" },
     ],
   },
   {
@@ -68,11 +68,21 @@ export const SKILLS_CATEGORY = [
     icon: Cloud,
     description: "Deploying and scaling applications",
     skills: [
-      { name: "Docker", level: 82, color: "bg-blue-600" },
-      { name: "AWS", level: 78, color: "bg-orange-600" },
-    
-      { name: "Git", level: 95, color: "bg-orange-700" },
+      { name: "AWS", level: 70, color: "bg-blue-600" },
+       { name: "Azure", level: 70, color: "bg-orange-600" },
+      { name: "Git", level: 70, color: "bg-green-700" },
       { name: "CI/CD", level: 75, color: "bg-purple-600" },
+    ],
+  },
+    {
+    title: "Testing",
+    icon: TestTube,
+    description: "Testing applications",
+    skills: [
+      { name: "Mocha", level: 82, color: "bg-blue-600" },
+      { name: "Chai", level: 78, color: "bg-orange-600" },
+      { name: "Puppeteer", level: 70, color: "bg-green-700" },
+      { name: "Jasmine", level: 65, color: "bg-purple-600" },
     ],
   },
 ];
@@ -81,14 +91,9 @@ export const TECH_STACK = [
   "JavaScript",
   "HTML5",
   "CSS3",
-  "Sass",
   "Webpack",
   "Vite",
-  "Jest",
-  "Cypress",
   "Figma",
-  "Adobe XD",
-  "Notion",
   "Slack",
 ];
 
